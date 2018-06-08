@@ -1,0 +1,64 @@
+*nehiyawewin.txt*  type in ᓀᐦᔭᐍᐏᐣ (nêhiyawêwin)/Plains Cree
+
+Author:  Eddie Antonio Santos <easantos@ualberta.ca>
+License: Same terms as Vim itself (see |license|)
+
+Attempts to make typing nêhiyawêwin (Plains Cree) in Canadian Aboriginal
+Syllabics easier to do. It does this by defining digraphs (see |digraph|).
+
+To use the digraphs, in Insert mode, type <C-k>. The next
+two keys correspond to a digraph. The digraph will be replaced with the
+appropriate Canadian Syllabics vowel, syllable, or final.
+
+Examples:
+    To obtain ᒋ (ci),  type <C-k>ci
+    To obtain ᐃ (i),   type <C-k>i.
+    To obtain ᑘ (twê), type <C-k>We
+    To obtain ᐦ (h),   type <C-k>h.
+    To obtain ᕽ (hk),  type <C-k>hk
+
+There is a systematicity to the way the digraphs are arranged.
+
+                                                *nehiyawewin-vowels*
+To type a vowel, type <C-k> followed by one of "aieo" as the first character,
+then "." for a short vowel or ":" for a long vowel as the second character.
+Note that ᐁ /ê has no short vowel form, so it must be typed as <C-k>
+
+Examples:
+    To obtain ᐃ (i), type <C-k>i.
+    To obtain ᐄ (î), type <C-k>i:
+    To obtain ᐁ (ê), type <C-k>e:
+
+                                                *nehiyawewin-syllables*
+To type a syllable (consonant, followed by vowel), type the consonant's SRO
+equivalent, followed by its vowel. If the syllable has a long vowel,
+capitalize the vowel (exception: do not capitalize "e" for "ê"). If the
+syllable has an intervening "w" between the consonant and the vowel,
+capitalize the consonant.
+
+Examples:
+    To obtain ᑭ (ki),  type <C-k>ki
+    To obtain ᑮ (kî),  type <C-k>kI
+    To obtain ᑫ (kê),  type <C-k>ke
+    To obtain ᑷ (kwi), type <C-k>Ki
+    To obtain ᑹ (kwî), type <C-k>KI
+    To obtain ᑵ (kwê), type <C-k>Ke
+
+                                                *nehiyawewin-finals*
+For all finals other than ᕽ (hk), type its SRO equivalent, followed by a
+full-stop. The digraph for ᕽ (hk) is simply "hk".
+
+Examples:
+    To obtain ᑊ (p),  type <C-k>p.
+    To obtain ᐟ (t),  type <C-k>t.
+    To obtain ᐠ (k),  type <C-k>k.
+    To obtain ᐨ (c),  type <C-k>c.
+    To obtain ᒼ (m),  type <C-k>m.
+    To obtain ᐣ (n),  type <C-k>n.
+    To obtain ᐢ (s),  type <C-k>s.
+    To obtain ᐦ (h),  type <C-k>h.
+    To obtain ᐤ (w),  type <C-k>w.
+    To obtain ᐩ (y),  type <C-k>y.
+    To obtain ᕽ (hk), type <C-k>hk
+
+ vim:tw=78:et:ft=help:norl
