@@ -3,7 +3,7 @@
 Vim plugin that defines [digraphs][] to write [syllabics][] for
 nêhiyawêwin ([Plains Cree][pC]).
 
-[![asciicast](https://asciinema.org/a/GQefd875LG1i1vzUpZd6UC937.png)](https://asciinema.org/a/GQefd875LG1i1vzUpZd6UC937?t=7)
+[![Demo of typing "ᐊᒋᒧᓯᐢ"](https://i.imgur.com/JO4vd7o.gif)](https://asciinema.org/a/GQefd875LG1i1vzUpZd6UC937?t=7)
 
 Once installed, you can access the full documentation by typing:
 
@@ -29,14 +29,14 @@ Use your plugin manager of choice.
 
 - [Pathogen](https://github.com/tpope/vim-pathogen)
   - `git clone https://github.com/eddieantonio/nehiyawewin ~/.vim/bundle/nehiyawewin`
-- [Vundle](https://github.com/gmarik/vundle)
-  - Add `Bundle 'https://github.com/eddieantonio/nehiyawewin'` to .vimrc
+- [Vundle](https://github.com/VundleVim/Vundle.vim)
+  - Add `Bundle 'eddieantonio/nehiyawewin'` to .vimrc
   - Run `:BundleInstall`
 - [NeoBundle](https://github.com/Shougo/neobundle.vim)
-  - Add `NeoBundle 'https://github.com/eddieantonio/nehiyawewin'` to .vimrc
+  - Add `NeoBundle 'eddieantonio/nehiyawewin'` to .vimrc
   - Run `:NeoBundleInstall`
 - [vim-plug](https://github.com/junegunn/vim-plug)
-  - Add `Plug 'https://github.com/eddieantonio/nehiyawewin'` to .vimrc
+  - Add `Plug 'eddieantonio/nehiyawewin'` to .vimrc
   - Run `:PlugInstall`
 
 
