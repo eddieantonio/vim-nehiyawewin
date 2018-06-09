@@ -4,11 +4,11 @@ Author:  Eddie Antonio Santos <easantos@ualberta.ca>
 License: Same terms as Vim itself (see |license|)
 
 Attempts to make typing nêhiyawêwin (Plains Cree) in Canadian Aboriginal
-Syllabics easier to do. It does this by defining digraphs (see |digraph|).
+syllabics easier to do. It does this by defining digraphs (see |digraph|).
 
 To use the digraphs, in Insert mode, type <C-k>. The next
 two keys correspond to a digraph. The digraph will be replaced with the
-appropriate Canadian Syllabics vowel, syllable, or final.
+appropriate Canadian Aboriginal syllabics vowel, syllable, or final.
 
 Examples:
     To obtain ᒋ (ci),  type <C-k>ci
@@ -17,12 +17,12 @@ Examples:
     To obtain ᐦ (h),   type <C-k>h.
     To obtain ᕽ (hk),  type <C-k>hk
 
-There is a systematicity to the way the digraphs are arranged.
+The digraphs are constructed in a systematic manner:
 
                                                 *nehiyawewin-vowels*
 To type a vowel, type <C-k> followed by one of "aieo" as the first character,
 then "." for a short vowel or ":" for a long vowel as the second character.
-Note that ᐁ /ê has no short vowel form, so it must be typed as <C-k>
+Note that ᐁ /ê has no short vowel form, so it must be typed as <C-k>e:
 
 Examples:
     To obtain ᐃ (i), type <C-k>i.
