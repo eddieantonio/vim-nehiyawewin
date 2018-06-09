@@ -43,10 +43,15 @@ Use your plugin manager of choice.
 ## Usage
 
 Like all other digraphs, enter `INSERT` mode, and start each digraph by
-typing <kbd>ctrl</kbd>+k (symbolized as `<C-k>`):
+typing <kbd>ctrl</kbd>+k (which is written as `<C-k>`):
 
 For example, typing "ᐊᒋᒧᓯᐢ" (acimosis):
 
-  <C-k>a.<C-k>ci<C-k>mo<C-k>si<C-k>s.
+    <C-k>a.<C-k>ci<C-k>mo<C-k>si<C-k>s.
+
+For more examples, [read the documentation](./doc/nehiyawewin.txt), or
+access it within Vim by typing:
+
+    :help nehiyawewin.txt
 
 <!-- Derrived from: https://raw.githubusercontent.com/JarrodCTaylor/vim-plugin-starter-kit/9e044d01c12af5156ac3bbe3494fd874449f6c23/vim_plugin_starter_kit/templates/README.md -->
