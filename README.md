@@ -1,7 +1,9 @@
 # nêhiyawêwin/ᓀᐦᐃᔭᐍᐏᐣ
 
-Defines [digraphs][] to write [syllabics][] for nêhiyawêwin ([Plains
-Cree][pC]).
+Vim plugin that defines [digraphs][] to write [syllabics][] for
+nêhiyawêwin ([Plains Cree][pC]).
+
+[![asciicast](https://asciinema.org/a/GQefd875LG1i1vzUpZd6UC937.png)](https://asciinema.org/a/GQefd875LG1i1vzUpZd6UC937?t=7)
 
 Once installed, you can access the full documentation by typing:
 
@@ -12,7 +14,7 @@ Or [read the documentation online](./doc/nehiyawewin.txt).
 **NOTE**: This plugin overrides many [default digraphs][] (mostly
 hiragana and katakana characters). I did this because the languages
 overridden already have established input methods on modern operating
-systems, and thus, the Vim's digraph feature is not necessary to write
+systems, and thus, the Vim's digraph feature is not as vital to write
 them.
 
 [digraphs]: http://vimdoc.sourceforge.net/htmldoc/digraph.html
