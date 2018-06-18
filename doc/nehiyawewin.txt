@@ -58,7 +58,7 @@ Examples:
     To obtain ᐢ (s),  type <C-k>s.
     To obtain ᐦ (h),  type <C-k>h.
     To obtain ᐤ (w),  type <C-k>w.
-    To obtain ᐩ (y),  type <C-k>y.
+    To obtain ᕀ (y),  type <C-k>y.
     To obtain ᕽ (hk), type <C-k>hk
 
  vim:tw=78:et:ft=help:norl
