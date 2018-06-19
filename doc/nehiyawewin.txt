@@ -46,7 +46,7 @@ Examples:
 
                                                 *nehiyawewin-finals*
 For all finals other than ᕽ (hk), type its SRO equivalent, followed by a
-full-stop. The digraph for ᕽ (hk) is simply "hk".
+full-stop. The digraph for ᕽ (hk) is "hk".
 
 Examples:
     To obtain ᑊ (p),  type <C-k>p.
@@ -60,5 +60,14 @@ Examples:
     To obtain ᐤ (w),  type <C-k>w.
     To obtain ᕀ (y),  type <C-k>y.
     To obtain ᕽ (hk), type <C-k>hk
+
+                                                *nehiyawewin-medials*
+
+The digraphs for medial ᓬ (l) and ᕒ (r) follow the same rules as finals,
+namely, type its SRO equivalent, followed by a full stop.
+
+Examples
+    To obtain ᓬ (l),  type <C-k>l.
+    To obtain ᕒ (r),  type <C-k>r.
 
  vim:tw=78:et:ft=help:norl
