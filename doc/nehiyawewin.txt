@@ -1,4 +1,4 @@
-*nehiyawewin.txt*  type in ᓀᐦᔭᐍᐏᐣ (nêhiyawêwin)/Plains Cree
+*nehiyawewin.txt*  type in ᓀᐦᐃᔭᐍᐏᐣ (nêhiyawêwin)/Plains Cree
 
 Author:  Eddie Antonio Santos <easantos@ualberta.ca>
 License: Same terms as Vim itself (see |license|)
