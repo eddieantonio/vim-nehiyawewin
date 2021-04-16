@@ -54,4 +54,12 @@ access it within Vim by typing:
 
     :help nehiyawewin.txt
 
+## License
+
+Copyright © 2018 National Research Council Canada.
+
+Distributed under the terms of the MIT License (MIT). See `LICENSE`
+for details.
+
+
 <!-- Derrived from: https://raw.githubusercontent.com/JarrodCTaylor/vim-plugin-starter-kit/9e044d01c12af5156ac3bbe3494fd874449f6c23/vim_plugin_starter_kit/templates/README.md -->
